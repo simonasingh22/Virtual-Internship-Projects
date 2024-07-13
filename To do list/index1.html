@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#footer">About us</a></li>
+        <li><a href="https://timesofindia.indiatimes.com/">News</a></li>
+        <li><a href="first_jS/">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+    <h1>Your own pocket friendly <i>*Task-Manager*</i></h1>
+    <h3>Why should one make a to-do list..!?</h3>
+    <p>Using a to-do list can significantly enhance task management and productivity by providing clear organization and prioritization of tasks. 
+        It reduces stress by offloading mental clutter, improves time management through structured planning, and boosts motivation with the satisfaction of checking off completed tasks. 
+        Additionally, it helps track progress, ensures accountability, and keeps you aligned with both short-term and long-term goals. 
+        By facilitating better memory retention and adaptability to changing priorities, a to-do list is an essential tool for efficient and effective task execution.</p>
+    <h3>Why News!??</h3>
+    <p>"Stay inspired and motivated with our <b>News</b> section!
+        <br>
+          Here, you'll find:
+        <br>
+        <br>
+        - Uplifting stories to brighten your day<br>
+        - Productivity tips to help you achieve your goals<br>
+        - Industry updates to keep you informed<br>
+        <br>
+        We'll keep you <b>motivated</b> and <b>inspired</b> to tackle your tasks with enthusiasm!"</p>
+        <div class="container">
+            <div id="task-manager">
+                <div class="year" id="year1">
+                    <h2>Year 1</h2>
+                    <ul class="task-list"></ul>
+                    <input type="text" placeholder="Add a new task">
+                    <button onclick="addTask(1)">Add Task</button>
+                </div>
+                <div class="year" id="year2">
+                    <h2>Year 2</h2>
+                    <ul class="task-list"></ul>
+                    <input type="text" placeholder="Add a new task">
+                    <button onclick="addTask(2)">Add Task</button>
+                </div>
+                <div class="year" id="year3">
+                    <h2>Year 3</h2>
+                    <ul class="task-list"></ul>
+                    <input type="text" placeholder="Add a new task">
+                    <button onclick="addTask(3)">Add Task</button>
+                </div>
+                <div class="year" id="year4">
+                    <h2>Year 4</h2>
+                    <ul class="task-list"></ul>
+                    <input type="text" placeholder="Add a new task">
+                    <button onclick="addTask(4)">Add Task</button>
+                </div>
+            </div>
+        </div>
+    <script src="script1.js"></script>
+</body>
+<footer>
+  <p id="copyright">&copy; 2024 ToDoList</p>
+  <p id="creator">Created by: <span id="creator-name">Simona Singh</span></p>
+  <p id="contact">Contact: <span id="contact-email">singhmona3552@gmail.com</span></p>
+</footer>
+</html>

@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  display: flexbox;
+  background-color: rgb(226, 215, 240);
+}
+
+.clock {
+  background-image: url("clk_bg2.jpg");
+  background-size: cover;
+  padding: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #cfb71a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+
+  padding: 80px;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 48px;
+}
+
+footer{
+  background-color: rgb(226, 215, 240);
+  padding: 20px;
+  text-align: center;
+  color: #211f1f;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+#creator {
+  font-size: 14px;
+}
+
+#contact {
+  font-size: 14px;
+}
