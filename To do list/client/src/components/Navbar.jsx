@@ -13,7 +13,7 @@ export default function Navbar(){
   return (
     <header className="nav-glass flex items-center justify-between">
       <div className="flex items-center gap-3">
-        <Link to="/dashboard" className="brand">Smart To-Do</Link>
+        <Link to="/dashboard" className="brand">ToDoist</Link>
         <span className="text-muted">— Do more, stress less</span>
       </div>
       <div className="flex items-center gap-3">
